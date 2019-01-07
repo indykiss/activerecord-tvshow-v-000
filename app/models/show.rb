@@ -8,7 +8,6 @@ class Show < ActiveRecord::Base
 
   def self.most_popular_show 
     id = Show.highest_rating
-
   end 
 
 
