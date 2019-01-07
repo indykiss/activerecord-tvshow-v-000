@@ -1,5 +1,4 @@
 
-
 class Show < ActiveRecord::Base
 
   
