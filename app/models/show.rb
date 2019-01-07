@@ -26,6 +26,8 @@ class Show < ActiveRecord::Base
     Show.find_by("rating = ?", rating > 5)
   end 
 
+  
+
 
 end 
 
