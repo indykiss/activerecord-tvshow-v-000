@@ -13,6 +13,8 @@ class Show < ActiveRecord::Base
   def self.lowest_rating 
     Show.minimum(:rating)
   end 
+  
+  
 
 
 end 
